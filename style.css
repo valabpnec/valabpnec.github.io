@@ -9827,8 +9827,10 @@ body:not(.device-touch) .clients-grid li a {
 .team,
 .team-image { 
 	position: relative;
-	
+}
 
+.team-image{
+	margin-left: 40px;
 }
 
 .team-image > a,
