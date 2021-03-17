@@ -1162,7 +1162,7 @@ body.stretched #header.full-header .container {
 	font-weight: bold;
 	font-size: 13px;
 	letter-spacing: 1px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-family: 'Raleway', sans-serif;
 	-webkit-transition: margin .4s ease, padding .4s ease;
 	-o-transition: margin .4s ease, padding .4s ease;
@@ -3105,7 +3105,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 .slider-caption h2 {
 	font-size: 4rem;
 	letter-spacing: 2px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-weight: 700;
 	line-height: 1;
 	margin-bottom: 0;
@@ -3760,6 +3760,7 @@ body:not(.device-touch) .portfolio {
 .portfolio-item .portfolio-image {
 	position: relative;
 	overflow: hidden;
+	border: 3px white dashed;
 }
 
 .portfolio-item .portfolio-image,
@@ -7504,7 +7505,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box h3 {
 	font-size: 16px;
 	font-weight: 700;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	letter-spacing: 1px;
 	margin-bottom: 0;
 	color: #333;
@@ -11313,7 +11314,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 .emphasis-title h2 {
 	margin-bottom: 0;
 	font-weight: 700;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	letter-spacing: 1px;
 	color: #333;
 }
